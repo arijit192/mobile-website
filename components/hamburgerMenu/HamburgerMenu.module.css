@@ -1,0 +1,10 @@
+.bars {
+  height: 5px;
+  width: 10vw;
+  background-color: #eb00ff;
+  margin: 6px;
+  border-radius: 30px;
+}
+.menu {
+  padding: 8px;
+}

@@ -1,13 +1,19 @@
 import React from "react";
+import styles from "./HamburgerMenu.module.css";
 
-function HamburgerMenu() {
-  return (
-    <React.Fragment>
-      <div></div>
-      <div></div>
-      <div></div>
-    </React.Fragment>
-  );
+class HamburgerMenu extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+  render() {
+    return (
+      <div className={styles.menu} onClick={this.props.handleClickMenu}>
+        <div className={styles.bars}></div>
+        <div className={styles.bars}></div>
+        <div className={styles.bars}></div>
+      </div>
+    );
+  }
 }
 
 export default HamburgerMenu;
