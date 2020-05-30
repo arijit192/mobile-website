@@ -3,7 +3,7 @@
   margin: 0;
 }
 html {
-  background: url("../assets/images/background.jpg") fixed center center;
+  background: url("../public/assets/images/background.jpg") fixed center center;
   background-size: cover;
 }
 body {
