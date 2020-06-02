@@ -1,0 +1,13 @@
+<svg width="131" height="131" viewBox="0 0 131 131" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 1">
+<circle id="Ellipse 1" cx="65.5" cy="65.5" r="65.5" fill="#EB00FF"/>
+<g id="cross">
+<line id="Line 1" x1="100.525" y1="105.475" x2="25.8952" y2="30.8449" stroke="black" stroke-width="7"/>
+<line id="Line 2" x1="30.4749" y1="25.5251" x2="105.105" y2="100.155" stroke="black" stroke-width="7"/>
+</g>
+<g id="cross_2">
+<line id="Line 1_2" x1="24.5251" y1="100.525" x2="99.1551" y2="25.8952" stroke="black" stroke-width="7"/>
+<line id="Line 2_2" x1="104.475" y1="30.4749" x2="29.8449" y2="105.105" stroke="black" stroke-width="7"/>
+</g>
+</g>
+</svg>

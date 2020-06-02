@@ -7,7 +7,7 @@ class HamburgerMenu extends React.Component {
   }
   render() {
     return (
-      <div className={styles.menu} onClick={this.props.handleClickMenu}>
+      <div className={styles.menu} onClick={this.props.handleTriggerMenu}>
         <div className={styles.bars}></div>
         <div className={styles.bars}></div>
         <div className={styles.bars}></div>

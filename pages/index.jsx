@@ -3,19 +3,22 @@ import Head from "next/head";
 
 import HamburgerMenu from "../components/hamburgerMenu/HamburgerMenu";
 import Footer from "../components/footer/Footer";
+import Menubar from "../components/Menubar/Menubar";
 
 class Index extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      test: "hello",
+      triggeredMenu: false,
     };
-
-    this.handleClickMenu = this.handleClickMenu.bind(this);
   }
-  handleClickMenu = () => {
-    console.log("clicked");
+  handleTriggerMenu = () => {
+    this.setState({ triggeredMenu: true });
   };
+  handleCloseMenu = () => {
+    this.setState({ triggeredMenu: false });
+  };
+
   render() {
     return (
       <div>
@@ -23,7 +26,11 @@ class Index extends React.Component {
           <title>Sawadee Ka!</title>
           <meta lang="en-US" />
         </Head>
-        <HamburgerMenu handleClickMenu={this.handleClickMenu} />
+        <HamburgerMenu handleTriggerMenu={this.handleTriggerMenu} />
+        <Menubar
+          triggeredMenu={this.state.triggeredMenu}
+          closeMenu={this.handleCloseMenu}
+        />
         <Footer />
       </div>
     );

@@ -11,3 +11,12 @@ body {
   height: 100vh;
   width: 100vw;
 }
+
+@font-face {
+  font-family: "Satisfy";
+  src: url("../public/assets/fonts/Satisfy-Regular.ttf");
+}
+@font-face {
+  font-family: BadScript;
+  src: url("../public/assets/fonts/BadScript-Regular.ttf");
+}
