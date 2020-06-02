@@ -158,7 +158,7 @@
 }
 .closeBtn_open {
   position: fixed;
-  width: 100%;
+  z-index: 4;
   animation: closeBtn_animate_open;
   animation-fill-mode: forwards;
   animation-duration: 1.5s;
@@ -173,7 +173,7 @@
 }
 .closeBtn_close {
   position: fixed;
-  width: 100%;
+  z-index: 4;
   animation: closeBtn_animate_close;
   animation-fill-mode: forwards;
   animation-duration: 1.5s;

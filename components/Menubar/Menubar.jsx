@@ -54,14 +54,16 @@ export default class Menubar extends Component {
             </a>
           </div>
         </div>
-        <img
-          ref={this.closeBtn}
-          className={Styles.closeBtn}
-          src="close.svg"
-          height="55px"
-          width="55px"
-          onClick={this.triggerCloseMenu}
-        />
+        <div style={{ display: "flex", flex: "1", justifyContent: "center" }}>
+          <img
+            ref={this.closeBtn}
+            className={Styles.closeBtn}
+            src="close.svg"
+            height="55px"
+            width="55px"
+            onClick={this.triggerCloseMenu}
+          />
+        </div>
       </div>
     );
   }
