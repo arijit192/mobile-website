@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Link from "next/link";
 
 export default class contact extends Component {
   render() {
@@ -24,9 +25,9 @@ export default class contact extends Component {
               border: "0px solid transparent",
             }}
           >
-            <a href="/" style={{ textDecoration: "none" }}>
-              Go to home
-            </a>
+            <Link href="/">
+              <a style={{ textDecoration: "none" }}>Go to home</a>
+            </Link>
           </button>
         </div>
       </div>

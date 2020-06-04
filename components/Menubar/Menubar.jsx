@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Link from "next/link";
 import Styles from "../Menubar/Menubar.module.css";
 
 export default class Menubar extends Component {
@@ -46,12 +47,12 @@ export default class Menubar extends Component {
           <div ref={this.firstCircle}></div>
           <div ref={this.secondCircle}></div>
           <div ref={this.menuList} className={Styles.menuList}>
-            <a href="/about" className={Styles.menuLinks}>
-              About Me
-            </a>
-            <a href="/contact" className={Styles.menuLinks}>
-              Contact
-            </a>
+            <Link href="/about">
+              <a className={Styles.menuLinks}>About Me</a>
+            </Link>
+            <Link href="/contact">
+              <a className={Styles.menuLinks}>Contact</a>
+            </Link>
           </div>
         </div>
         <div style={{ display: "flex", flex: "1", justifyContent: "center" }}>
